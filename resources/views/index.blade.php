@@ -11,17 +11,23 @@
 
                     <div class="row align-items-center">
                         <div class="col-lg-7 portfolio-info">
-                            <h3>Hey, I'm Johan Stanworth</h3>
+                            <h3>Browse Movie Trailers</h3>
                             <p>Voluptatem sit minima et dignissimos earum fuga vel nulla quidem aut quam</p>
                         </div>
                         <div class="col-lg-5 text-center text-lg-end">
-                            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                            <div>
+                                <input type="text" class="form-control min-vw-50" data-aos="fade-down" placeholder="Search trailer">
+                            </div>
+                            <div class="row">
+                                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100"> 
+                                    <li data-filter=".filter-app">Filter: </li>
                                 <li data-filter="*" class="filter-active">All</li>
                                 <li data-filter=".filter-app">App</li>
                                 <li data-filter=".filter-product">Product</li>
                                 <li data-filter=".filter-branding">Branding</li>
                                 <li data-filter=".filter-books">Books</li>
                             </ul><!-- End Portfolio Filters -->
+                        </div>
                         </div>
                     </div>
 
@@ -251,76 +257,6 @@
             </div>
 
         </section><!-- /Portfolio Section -->
-
-        <!-- Clients Section -->
-        <section id="clients" class="clients section light-background">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>My Clients</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-                <div class="swiper init-swiper">
-                    <script type="application/json" class="swiper-config">
-                    {
-                      "loop": true,
-                      "speed": 600,
-                      "autoplay": {
-                        "delay": 5000
-                      },
-                      "slidesPerView": "auto",
-                      "pagination": {
-                        "el": ".swiper-pagination",
-                        "type": "bullets",
-                        "clickable": true
-                      },
-                      "breakpoints": {
-                        "320": {
-                          "slidesPerView": 2,
-                          "spaceBetween": 40
-                        },
-                        "480": {
-                          "slidesPerView": 3,
-                          "spaceBetween": 60
-                        },
-                        "640": {
-                          "slidesPerView": 4,
-                          "spaceBetween": 80
-                        },
-                        "992": {
-                          "slidesPerView": 6,
-                          "spaceBetween": 120
-                        }
-                      }
-                    }
-                  </script>
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid"
-                                alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid"
-                                alt=""></div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-
-            </div>
-
-        </section><!-- /Clients Section -->
 
         <!-- Services Section -->
         <section id="services" class="services section">
