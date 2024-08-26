@@ -260,5 +260,7 @@
             </div>
 
         </section><!-- /Portfolio Section -->
+
+        <!-- Services Section -->
     </main>
 @endsection

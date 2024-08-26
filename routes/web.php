@@ -14,4 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [MovieController::class, 'index'])->name('index');
+Route::get('/index', [MovieController::class, 'index'])->name('index');
+Route::get('/', [MovieController::class, 'movie_list'])->name('movie_list');
+Route::get('/movie/create', [MovieController::class, 'movie_create'])->name('movie_create');
+Route::get('/movie/detail', [MovieController::class, 'movie_detail'])->name('movie_detail');
+Route::post('/movie/upload', [MovieController::class, 'movie_upload'])->name('movie_upload');
